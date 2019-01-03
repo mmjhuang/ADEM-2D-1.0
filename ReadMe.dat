@@ -1,0 +1,40 @@
+These codes in this folder is same as those in the Book. 
+The are only for 2-D circular particle.
+The differnet between them is the number of columns in the stma (the data structures of PAI and PAJ are same as Stma) 
+arrayment, becasue the finial target is to simulate non-spereical 3D particles.
+
+1st column:  radius  (or major axis for ellips particle)
+2nd column:  density 
+3rd column:  mass
+4th column:  empty  (for minor axis in future)
+5th column:  particle position in x dirextion
+6th column:  particle position in y dirextion
+7th column:  particle position in z dirextion (empty for 2-D)
+8th column:  empty  (radius for judge contact or not for ellipse)
+9th column:  empty  (radius for surface curvature for ellipse)
+10th column: velocity in x direction
+11th column: velocity in y direction
+12th column: velocity in z direction
+13th column: empty  (distance between the major particle to the 1st minor particles for ellipse)
+14th column: empty  (distance between the major particle to the 2nd minor particles for ellipse)
+15th column: accelration in x direction
+16th column: acceleration in y dirextion
+17th column: acceleration in z direction
+18th column: empty  (fixed neighbor list for ellipse)
+19th column: space angle between the major axis and x-coordinate  (-inf < \theta < inf)
+20th column: space angle between the major axis and y-coordinate (empty for 2D)
+21nd column: space angle between the major axis and z-coordinate (empty for 2D)
+22nd column: angular velocity around x-axis (around z-axis for 2D)
+23th column: angular velocity around y-axis (empty for 2D)
+24th column: angular velocity around z-axis (empty for 2D)
+25nd column: angular accleration around x-axis (around z-axis for 2D)
+26th column: angular acceleration around y-axis (empty for 2D)
+27th column: angular acceleration around z-axis (empty for 2D)
+28th column: material properties for particle
+
+
+
+
+
+
+space angle for ellipse particle ()
